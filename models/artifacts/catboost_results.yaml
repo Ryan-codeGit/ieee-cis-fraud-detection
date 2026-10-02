@@ -1,0 +1,19 @@
+========== Starting CatBoost Pipeline Training ==========
+Loading engineered dataset from: data/processed/train_engineered.parquet
+Sorting dataset chronologically by TransactionDT...
+ -> Loading parameters from: models/artifacts/best_catboost_params.yaml
+
+--- CatBoost Fold 1/5 ---
+Fold 1 ROC-AUC: 0.88937 | Best Iter: 322
+
+--- CatBoost Fold 2/5 ---
+Fold 2 ROC-AUC: 0.92239 | Best Iter: 574
+
+--- CatBoost Fold 3/5 ---
+Fold 3 ROC-AUC: 0.89729 | Best Iter: 209
+
+--- CatBoost Fold 4/5 ---
+Fold 4 ROC-AUC: 0.92722 | Best Iter: 876
+
+--- CatBoost Fold 5/5 ---
+Fold 5 ROC-AUC: 0.92213 | Best Iter: 574

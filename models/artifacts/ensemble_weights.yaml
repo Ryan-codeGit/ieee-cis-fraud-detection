@@ -1,0 +1,5 @@
+best_oot_auc: 0.9429717666157192
+weights:
+  w_catboost: 0.2278
+  w_lightgbm: 0.3119
+  w_xgboost: 0.4603

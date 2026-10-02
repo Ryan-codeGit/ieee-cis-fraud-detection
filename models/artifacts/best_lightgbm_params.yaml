@@ -1,0 +1,15 @@
+boosting_type: gbdt
+colsample_bytree: 0.4002296157286968
+learning_rate: 0.05016864947467709
+max_depth: 12
+metric: auc
+min_child_samples: 184
+n_jobs: -1
+num_leaves: 184
+objective: binary
+random_state: 42
+reg_alpha: 0.32900689885368456
+reg_lambda: 0.0010924931185692921
+subsample: 0.8078651327878603
+subsample_freq: 6
+verbosity: -1

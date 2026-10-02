@@ -1,0 +1,14 @@
+catboost==1.2.10
+joblib==1.5.3
+jupyter==1.1.1
+lightgbm==4.6.0
+matplotlib==3.11.0
+numpy==2.4.6
+optuna==4.9.0
+pandas==3.0.3
+pyarrow==25.0.1
+PyYAML==6.0.3
+scikit-learn==1.9.0
+scipy==1.17.1
+seaborn==0.13.2
+xgboost==3.2.0

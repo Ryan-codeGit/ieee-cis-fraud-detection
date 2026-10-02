@@ -1,0 +1,19 @@
+========== Starting XGBoost Pipeline Training ==========
+Loading engineered dataset from: data/processed/train_engineered.parquet
+Sorting dataset chronologically by TransactionDT...
+ -> Loading parameters from: models/artifacts/best_xgboost_params.yaml
+
+--- XGBoost Fold 1/5 ---
+Fold 1 ROC-AUC: 0.89742 | Best Iter: 218
+
+--- XGBoost Fold 2/5 ---
+Fold 2 ROC-AUC: 0.92843 | Best Iter: 492
+
+--- XGBoost Fold 3/5 ---
+Fold 3 ROC-AUC: 0.91946 | Best Iter: 324
+
+--- XGBoost Fold 4/5 ---
+Fold 4 ROC-AUC: 0.93911 | Best Iter: 403
+
+--- XGBoost Fold 5/5 ---
+Fold 5 ROC-AUC: 0.93889 | Best Iter: 664

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+
+# Local environment
+.env
+
+# Raw competition data
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated processed data
+data/processed/*
+!data/processed/.gitkeep
+
+#Trained final models
+models/final_*.cbm
+models/final_*.txt
+models/final_*.json
+
+# Generated OOF predictions
+models/artifacts/oof_*.csv
+
+# Generated submissions
+outputs/*.csv
+
+# OS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/

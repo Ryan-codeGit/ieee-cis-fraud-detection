@@ -1,0 +1,13 @@
+bagging_temperature: 0.3201703015470375
+border_count: 128
+depth: 5
+eval_metric: AUC
+l2_leaf_reg: 4.518894255067879
+learning_rate: 0.10890580181624865
+loss_function: Logloss
+one_hot_max_size: 20
+random_seed: 42
+random_strength: 0.002653773865637363
+task_type: CPU
+thread_count: -1
+verbose: false

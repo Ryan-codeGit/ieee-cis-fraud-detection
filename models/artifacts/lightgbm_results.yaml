@@ -1,0 +1,19 @@
+========== Starting LightGBM Pipeline Training ==========
+Loading engineered dataset from: data/processed/train_engineered.parquet
+Sorting dataset chronologically by TransactionDT...
+ -> Loading parameters from: models/artifacts/best_lightgbm_params.yaml
+
+--- LightGBM Fold 1/5 ---
+Fold 1 ROC-AUC: 0.89069 | Best Iter: 119
+
+--- LightGBM Fold 2/5 ---
+Fold 2 ROC-AUC: 0.92047 | Best Iter: 155
+
+--- LightGBM Fold 3/5 ---
+Fold 3 ROC-AUC: 0.91301 | Best Iter: 124
+
+--- LightGBM Fold 4/5 ---
+Fold 4 ROC-AUC: 0.93604 | Best Iter: 325
+
+--- LightGBM Fold 5/5 ---
+Fold 5 ROC-AUC: 0.93456 | Best Iter: 376

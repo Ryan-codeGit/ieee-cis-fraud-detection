@@ -1,0 +1,19 @@
+========== Loading Out-of-Fold (OOF) Predictions ==========
+Loaded 492115 validation rows across folds [1, 2, 3, 4, 5].
+
+--- Baseline Individual Out-of-Fold ROC-AUC Scores ---
+  * LightGBM   | Full OOF ROC-AUC: 0.91897 | OOT (Folds 4 & 5): 0.93539
+  * CatBoost   | Full OOF ROC-AUC: 0.91046 | OOT (Folds 4 & 5): 0.92474
+  * XGBoost    | Full OOF ROC-AUC: 0.92482 | OOT (Folds 4 & 5): 0.93815
+
+--- 1. Evaluating Rank Averaging Blend ---
+  * Rank Average Blend | Full OOF ROC-AUC: 0.92842 | OOT (Folds 4 & 5): 0.94141
+
+--- 2. Optimizing Weighted Probability Ensemble (Optuna) ---
+Optimal OOT ROC-AUC: 0.94297
+Optimal Blending Weights:
+  w_lightgbm  : 0.3119
+  w_catboost  : 0.2278
+  w_xgboost   : 0.4603
+
+Saved optimal blending configuration to: 'models/artifacts/ensemble_weights.yaml'

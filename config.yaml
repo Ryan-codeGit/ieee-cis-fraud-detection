@@ -1,0 +1,10 @@
+paths:
+  train_transaction: data/raw/train_transaction.csv
+  train_identity: data/raw/train_identity.csv
+  test_identity: data/raw/test_identity.csv
+  test_transaction: data/raw/test_transaction.csv
+  xgboost_params: models/artifacts/best_xgboost_params.yaml
+  lightgbm_params: models/artifacts/best_lightgbm_params.yaml
+  cat_boost_params: models/artifacts/best_catboost_params.yaml  
+  v_compressor_artifact: models/artifacts/v_compressor.joblib
+
